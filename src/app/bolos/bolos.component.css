@@ -1,0 +1,22 @@
+button {
+
+    padding: 4px 11px;
+    border: 1px solid black;
+    
+    
+}
+
+h1{ 
+
+    color: rebeccapurple;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;
+
+
+}
+
+span{
+
+    color: palevioletred;
+    font-family: 'Times New Roman', Times, serif;
+}

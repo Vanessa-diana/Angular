@@ -1,0 +1,16 @@
+<section>
+<h1>Lista de Bolos</h1>
+
+<ul>
+  <li *ngFor="let bolos of ListaBolos">
+    {{bolos}}
+  </li>
+ </ul>
+
+ <span><b>Digite o Bolo que deseja inserir!</b></span>
+ <br>
+ <input type="text"  [(ngModel)]="nome" placeholder="">
+
+<button (click)="Inserir()"> Inserir</button>
+
+</section>
